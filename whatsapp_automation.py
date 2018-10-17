@@ -14,10 +14,10 @@ wait = WebDriverWait(driver, 600)
 
 # Replace 'Friend's Name' with the name of your friend 
 # or the name of a group 
-target = '"bhavya makwana(regular)"'
+target = '"YOUR-TARGET-GROUP"'
 
 # Replace the below string with your own message 
-string = "Here Is The Venom!!"
+string = "YOUR-TARGET-MESSAGE"
 
 
 x_arg = '//span[contains(@title,' + target + ')]'
