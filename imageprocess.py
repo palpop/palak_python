@@ -2,7 +2,7 @@
 from PIL import Image
 
 #opening the image
-img=Image.open('slb.jpg')
+img=Image.open('YOUR-IMAGE.jpg')
 
 #transposing
 transposed_img = img.transpose(Image.FLIP_LEFT_RIGHT)
