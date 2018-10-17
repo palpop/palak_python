@@ -1,6 +1,6 @@
 import numpy
 from PIL import Image
-im=Image.open('palak.jpg')
+im=Image.open('YOUR-IMAGE-FILE.jpg')
 pixelMap=im.load()
 
 img=Image.new(im.mode,im.size)
@@ -25,5 +25,5 @@ for i in range(img.size[0]):
         elif(pixelMap[i,j]>=224 and pixelMap[i,j]<=255):
             pixelNew[i,j]=7
         
-img.save('palak1.jpg')
+img.save('LOW-RESULT-IMAGE.jpg')
 j=numpy.asanyarray(Image.open('palak1.jpg'))
